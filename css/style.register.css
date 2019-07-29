@@ -1,0 +1,53 @@
+
+h1{
+    font-weight: bold;
+    color:rgb(0,0,0);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+form
+{
+    margin-left: 40px;
+  
+}
+.window{
+    background-color: rgb(226,221,218);
+
+}
+.bold{
+    color:rgb(0,0,0);
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    border-radius: 2px;
+}
+.inp{
+        width:93%;
+}
+#male{
+    margin-left: 5px;
+}
+#small{
+    font-size: 11px;
+}
+#green
+{
+    background-color: rgb(0,147,22);
+    width:150px;
+    color:white;
+    padding:3px;
+    border-radius: 7px ;
+    font-size: 13px;
+ 
+}
+#fontSize{
+    font-size: 10px
+}
+#date{
+    width:40%;
+    margin-right: 1px;
+}
+a{
+    cursor: pointer;
+}

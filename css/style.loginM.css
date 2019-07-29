@@ -1,0 +1,30 @@
+.mainBox{
+    background-color: #3b5998;
+    height: 567px;
+}
+h1{
+    color: #ffffff;
+    font-size: 3.5rem !important;/* vw for responsive   */
+    font-weight:900!important;
+    line-height: 3.0 !important;
+    font-family: 'Roboto Mono';
+}
+input{
+    width: 90%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5% !important;
+    outline: none !important;
+}
+input[type=submit]{
+    color: #f7f7f7;
+    background-color: #8b9dc3;
+    font-size: 1.2rem !important;
+    font-weight:900 !important;
+}
+input:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+

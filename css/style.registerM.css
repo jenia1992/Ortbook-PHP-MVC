@@ -1,0 +1,79 @@
+#title{
+    background-color: #3B5998;
+    color: white;
+    font-size: 25px;
+}
+#account{
+    font-size:15px;
+    margin-right: 230px;
+}
+.inputTitle{
+    word-spacing: 50px;
+}
+.subTitle{
+    color: lightslategray;
+}
+/* Style the input fields */
+input {
+    outline: none !important;
+    padding: 1px;
+    width: 150px;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: blanchedalmond;
+}
+input:focus {
+    outline: none !important;
+    border:1px solid #e5c893;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+}
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none; 
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #4CAF50;
+}
+.gender{
+    font-size:20px;
+    outline: none !important;
+    margin: 10px;
+
+}
+
+
+input[type=radio]:focus{
+    outline: none !important;
+    box-shadow: none !important;
+
+
+}

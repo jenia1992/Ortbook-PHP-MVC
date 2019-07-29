@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Roboto Mono', monospace;}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Roboto Mono', monospace;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Roboto Mono', monospace;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Roboto Mono', monospace;
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid #e5c893;
+    box-shadow: 0 0 10px #719ECE;
+    background-color: white;
+}
+input.invalid {
+    background-color: red;
+}
+#title{
+    background-color: #3B5998;
+    color: white;
+    font-size: 25px;
+}
+#password{
+    border-radius: 0 0 5px 5px;
+    width: 90%;
+    height: 50px;
+
+}
+#email{
+    border-radius:5px 5px 0 0;
+    width: 90%;
+    height: 50px;
+}
+
+
+#Login {
+    width: 90%;
+}
+
+h5 { 
+    width:100%; 
+    text-align:center;
+    border-bottom: 1px solid gray; 
+    line-height:0.1em;
+    margin:10px 0 20px;
+}
+#register{
+    width: 60%;
+}
+.submit-login {
+    margin-top: 5px;
+    background-color: rgb(70, 92, 139);
+    color: white;
+    border: none;
+}
+
+.submit-login:hover{
+    margin-top: 5px;
+    background-color: rgb(70, 92, 139);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px;
+}
+#errors {
+    display: inline-block; margin: 0; text-align: center;
+}
+.footer a{
+    color: white;
+}
+
+
+
